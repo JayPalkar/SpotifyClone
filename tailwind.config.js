@@ -5,10 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      'spotifyGreen' : '#1ed760'
+    extend: {
+      colors: {
+        'spotifyGreen' : '#1ed760'
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
