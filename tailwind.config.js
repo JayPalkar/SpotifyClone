@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'background' : '#121212',
         'spotifyGreen' : '#1ed760',
         'hoverGreen' : '#3be477'
       },
